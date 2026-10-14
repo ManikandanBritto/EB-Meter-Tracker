@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "EB Tracker",
+    "slug": "eb-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.ebtracker.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ebtracker.app"
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon_v1.jpeg",
+          "backgroundColor": "#ffffff",
+          "resizeMode": "contain",
+          "imageWidth": 280
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "aa7d28dc-5252-47cc-872a-c290f343abda"
+      }
+    }
+  }
+}
